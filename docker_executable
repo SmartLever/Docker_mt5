@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Carga la imagen desde el archivo tar
+docker load -i pyzmq.tar
+
+# Cambia el nombre de la imagen
+docker tag ejtrader/pyzmq:dev pyzmq:dev
+
+# Inicia Docker Compose
+docker-compose up -d
+
