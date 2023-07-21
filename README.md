@@ -41,6 +41,8 @@ Instructions:
    - Run the ./docker_executable script: Once done, MetaTrader 5 will be running correctly.
 4. VNC:
    -  Access the graphical interface of MT5 through VNC, download the VNC client based on your operating system.
+   -  Put the IP where is running your MT5 and the port 5900, example: localhost:5900.
+   ![](images/vnc.png)
    -  Once inside, you will need to enter a username and password, which can be changed in the Dockerfile, in our case it's root and root.
    ![](images/init.png)
 5. MetaTrader 5 in Docker:
